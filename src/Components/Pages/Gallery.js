@@ -13,7 +13,7 @@ export default function About() {
 
         <img alt="" src={require("../../Images/mario3.jpg")} />
         <img alt="" src={require("../../Images/mario4.jpg")} />
-        <img alt="" src={require("../../Images/mario5.jpg")} />
+        <img alt="" src={require("../../Images/mario55.jpg")} />
 
         <img alt="" src={require("../../Images/mario6.jpg")} />
         <img alt="" src={require("../../Images/mario7.jpg")} />
