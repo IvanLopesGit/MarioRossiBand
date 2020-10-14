@@ -15,7 +15,7 @@ function Music() {
           playing={true}
           controls={true}
           width="100%"
-          height="700px"
+          height="100%"
           playIcon={true}
         />
       </div>
