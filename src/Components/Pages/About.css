@@ -3,6 +3,11 @@
   src: url("../../Fonts/Rockness.ttf");
 }
 
+@font-face {
+  font-family: "Sriracha";
+  src: url("../../Fonts/Sriracha.ttf");
+}
+
 .about {
   background: rgb(48, 48, 48);
   display: flex;
@@ -23,6 +28,7 @@
   font-size: 18px;
   line-height: 28px;
   margin-left: 15px;
+  font-family: "Sriracha";
 }
 
 @media only screen and (max-width: 970px) {

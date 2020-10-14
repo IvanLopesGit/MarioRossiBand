@@ -1,11 +1,6 @@
 @font-face {
-  font-family: "Rockness";
-  src: url("../../Fonts/Rockness.ttf");
-}
-
-@font-face {
-  font-family: "PaulSignature";
-  src: url("../../Fonts/PaulSignature.ttf");
+  font-family: "Sriracha";
+  src: url("../../Fonts/Sriracha.ttf");
 }
 
 .music {
@@ -15,14 +10,6 @@
   flex-wrap: wrap;
   height: 870px;
   justify-content: space-around;
-}
-
-.music-title {
-  background: rgb(0, 0, 0);
-  font-size: 90px;
-  font-family: "Rockness";
-  align-self: center;
-  color: white;
 }
 
 .music-album {
@@ -37,9 +24,9 @@
 }
 
 .music-track {
-  font-family: "PaulSignature";
+  font-family: "Sriracha";
   color: white;
-  font-size: 24px;
+  font-size: 19px;
   width: 350px;
   margin-top: 20px;
 }
@@ -87,7 +74,7 @@
   }
 
   .music-track {
-    font-family: "PaulSignature";
+    font-family: "Sriracha";
     color: white;
     font-size: 19px;
     width: 350px;

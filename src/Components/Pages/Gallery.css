@@ -1,11 +1,6 @@
-@font-face {
-  font-family: "Satisfy";
-  src: url("../../Fonts/Satisfy.ttf");
-}
-
 .gallery {
-  background: rgb(48, 48, 48);
-  height: 132vh;
+  background: #303030;
+  height: 167vh;
 }
 
 .g-image {
@@ -14,8 +9,8 @@
 }
 
 .g-image img {
-  height: 240px;
-  width: 250px;
+  height: 250px;
+  width: 220px;
   transition: transform 0.7s ease-in-out;
   margin-left: 140px;
   margin-top: 120px;
@@ -25,4 +20,105 @@
 
 .g-image img:hover {
   transform: scale(2.2);
+  transition: 1.2s;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+
+.pic1 {
+  padding-right: 1000px;
+}
+
+.pic1 img {
+  height: 290px;
+  width: 200px;
+  transition: 1.2s;
+}
+
+.pic2 {
+  padding-right: 1000px;
+}
+
+.pic2 img {
+  height: 290px;
+  width: 200px;
+  transition: 1.2s;
+}
+
+.pic3 {
+  padding-right: 525px;
+}
+
+.pic3 img {
+  height: 200px;
+  width: 290px;
+  transition: 1.2s;
+}
+
+.pic4 {
+  margin-top: -1000px;
+}
+
+.pic4 img {
+  height: 290px;
+  width: 200px;
+  transition: 1.2s;
+}
+
+.pic5 {
+  margin-top: 25px;
+}
+
+.pic5 img {
+  height: 250px;
+  width: 250px;
+  transition: 1.2s;
+}
+
+.pic6 {
+  margin-top: 14px;
+  padding-left: 510px;
+}
+
+.pic6 img {
+  height: 200px;
+  width: 290px;
+  transition: 1.2s;
+}
+
+.pic7 {
+  padding-left: 950px;
+  margin-top: -1000px;
+}
+
+.pic7 img {
+  height: 290px;
+  width: 200px;
+  transition: 1.2s;
+}
+
+.pic8 {
+  padding-left: 950px;
+  /* margin-top: 5px; */
+}
+
+.pic8 img {
+  height: 290px;
+  width: 200px;
+  transition: 1.2s;
+}
+
+.pic9 {
+  margin-top: 250px;
+  padding-top: 30px;
+}
+
+.pic9 img {
+  height: 200px;
+  width: 290px;
+  transition: 1.2s;
+}
+
+.pic9 img:hover {
+  left: 1000px;
 }
