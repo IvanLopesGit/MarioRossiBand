@@ -18,7 +18,7 @@
 }
 
 .releases-title {
-  background: rgb(0, 0, 0);
+  /* background: rgb(0, 0, 0); */
   font-size: 90px;
   font-family: "Rockness";
   align-self: center;
@@ -88,6 +88,20 @@
     font-size: 19px;
     width: 350px;
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .releases-title {
+    font-size: 70px;
+  }
+
+  .releases-track {
+    font-size: 16px;
+  }
+
+  .releases {
+    height: 840px;
   }
 }
 

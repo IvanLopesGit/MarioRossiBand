@@ -1,6 +1,9 @@
 .gallery {
-  background: #303030;
+  background: #000000;
   height: 167vh;
+  background-image: url(../../Images/background.png);
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
 }
 
 .g-image {
@@ -121,4 +124,55 @@
 
 .pic9 img:hover {
   left: 1000px;
+}
+
+@media screen and (max-width: 1370px) {
+  .gallery {
+    background: #303030;
+    height: 270vh;
+  }
+
+  .pic4 {
+    margin-top: -1000px;
+    padding-left: 75px;
+  }
+
+  .pic4 img {
+    height: 290px;
+    width: 200px;
+    transition: 1.2s;
+  }
+
+  .pic5 {
+    margin-top: 25px;
+    padding-left: 75px;
+  }
+
+  .pic5 img {
+    height: 250px;
+    width: 250px;
+    transition: 1.2s;
+  }
+
+  .pic7 {
+    padding-left: 875px;
+    margin-top: -1000px;
+  }
+
+  .pic7 img {
+    height: 290px;
+    width: 200px;
+    transition: 1.2s;
+  }
+
+  .pic8 {
+    padding-left: 875px;
+    /* margin-top: 5px; */
+  }
+
+  .pic8 img {
+    height: 290px;
+    width: 200px;
+    transition: 1.2s;
+  }
 }

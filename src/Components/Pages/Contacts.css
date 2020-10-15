@@ -1,13 +1,11 @@
-@font-face {
-  font-family: "Sriracha";
-  src: url("../../Fonts/Sriracha.ttf");
-}
-
 .contacts {
   display: flex;
   flex-direction: column;
   background: rgb(48, 48, 48);
-  height: 90vh;
+  height: 83vh;
+  background-image: url(../../Images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .minus {
@@ -30,7 +28,6 @@
 .booking {
   color: white;
   font-size: 30px;
-  font-family: "Sriracha";
   margin-top: 2vh;
   text-align: center;
 }
@@ -38,35 +35,60 @@
 .booking-e-mail {
   color: white;
   font-size: 27px;
-  margin-top: 1vh;
+  margin-top: 3vh;
   text-align: center;
-  font-family: "Sriracha";
 }
 
 .office-title {
   font-size: 30px;
-  font-family: "Sriracha";
   margin-bottom: 15px;
 }
 
 .pressoffice {
   color: white;
   font-size: 25px;
-  font-family: "Sriracha";
-  margin-top: 1vh;
+  margin-top: 3vh;
   text-align: center;
 }
 
 .webmaster {
   color: white;
   font-size: 30px;
-  font-family: "Sriracha";
-  margin-top: 1vh;
+  margin-top: 3vh;
   text-align: center;
 }
 
 .webmaster-contact {
-  margin-top: -35px;
+  margin-top: -18px;
   font-size: 25px;
-  font-family: "Sriracha";
+}
+
+@media screen and (max-width: 1370px) {
+  .contacts {
+    height: 94vh;
+  }
+
+  .webmaster {
+    font-size: 30px;
+    margin-top: 3vh;
+  }
+
+  .webmaster-contact {
+    margin-top: -18px;
+    font-size: 25px;
+  }
+
+  .office-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .pressoffice {
+    font-size: 25px;
+    margin-top: 3vh;
+  }
+
+  .minus {
+    margin-left: 395px;
+  }
 }

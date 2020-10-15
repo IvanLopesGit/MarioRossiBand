@@ -1,6 +1,9 @@
 .media {
   background: rgb(48, 48, 48);
   height: 82vh;
+  background-image: url(../../Images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .redesocial {
