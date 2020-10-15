@@ -30,6 +30,13 @@
   text-align: center;
 }
 
+@media screen and (max-width: 1370px) {
+  .about-text {
+    font-size: 18px;
+    line-height: 17px;
+  }
+}
+
 @media only screen and (max-width: 970px) {
   .about-text {
     font-size: 13px;
