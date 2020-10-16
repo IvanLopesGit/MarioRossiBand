@@ -31,6 +31,39 @@
   margin-top: 50px;
 }
 
+@media screen and (max-width: 1535px) {
+  .about1 {
+    height: 890px;
+  }
+
+  .about1-text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .about1 {
+    height: 885px;
+  }
+
+  .about1-text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  .about1 {
+    height: 855px;
+  }
+
+  .about1-text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
 @media screen and (max-width: 1370px) {
   .about1 {
     height: 830px;
@@ -39,6 +72,17 @@
   .about1-text {
     font-size: 18px;
     line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .about1 {
+    height: 760px;
+  }
+
+  .about1-text {
+    font-size: 18px;
+    line-height: 19px;
   }
 }
 
