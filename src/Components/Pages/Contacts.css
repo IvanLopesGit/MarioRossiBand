@@ -27,40 +27,55 @@
 
 .booking {
   color: white;
-  font-size: 30px;
-  margin-top: 2vh;
+  font-size: 20px;
+  margin-top: 9vh;
   text-align: center;
 }
 
 .booking-e-mail {
   color: white;
-  font-size: 27px;
+  font-size: 20px;
   margin-top: 3vh;
   text-align: center;
 }
 
+.booking-e-mail a {
+  color: white;
+  text-decoration: none;
+}
+
 .office-title {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
 .pressoffice {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 3vh;
   text-align: center;
 }
 
+.pressoffice a {
+  color: white;
+  text-decoration: none;
+}
+
 .webmaster {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 3vh;
   text-align: center;
 }
 
 .webmaster-contact {
   margin-top: -18px;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.webmaster-contact a {
+  color: white;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1370px) {
@@ -69,22 +84,22 @@
   }
 
   .webmaster {
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 3vh;
   }
 
   .webmaster-contact {
     margin-top: -18px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .office-title {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 15px;
   }
 
   .pressoffice {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 3vh;
   }
 
