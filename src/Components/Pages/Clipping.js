@@ -25,7 +25,7 @@ export default function About() {
                 playIcon={true}
               />
             </div>
-            <div className="minus">
+            <div className="minus1">
               <div className="_2020Chicago">
                 <a
                   className="decoration"
@@ -37,7 +37,7 @@ export default function About() {
                 </a>
               </div>
             </div>
-            <div className="minus">
+            <div className="minus1">
               <div className="_2020Chicago">
                 <a
                   className="decoration"
@@ -49,7 +49,7 @@ export default function About() {
                 </a>
               </div>
             </div>
-            <div className="minus">
+            <div className="minus1">
               <div className="_2020Chicago">
                 <a
                   className="decoration"
@@ -61,7 +61,7 @@ export default function About() {
                 </a>
               </div>
             </div>
-            <div className="minus">
+            <div className="minus1">
               <div className="_2020Chicago">
                 <a
                   className="decoration"
@@ -73,7 +73,7 @@ export default function About() {
                 </a>
               </div>
             </div>
-            <div className="minus">
+            <div className="minus1">
               <div className="_2020Chicago">
                 <a
                   className="decoration"
@@ -85,7 +85,7 @@ export default function About() {
                 </a>
               </div>
             </div>
-            <div className="minus">
+            <div className="minus1">
               <div className="_2020Chicago">
                 <a
                   className="decoration"
@@ -102,7 +102,7 @@ export default function About() {
           <div className="_2019title">
             2019 some articles about 'Electric Art' album release
           </div>
-          <div className="minus">
+          <div className="minus1">
             <div className="_2020Chicago">
               <a
                 className="decoration"
@@ -114,7 +114,7 @@ export default function About() {
               </a>
             </div>
           </div>
-          <div className="minus">
+          <div className="minus1">
             <div className="_2020Chicago">
               <a
                 className="decoration"
@@ -126,7 +126,7 @@ export default function About() {
               </a>
             </div>
           </div>
-          <div className="minus">
+          <div className="minus1">
             <div className="_2020Chicago">
               <a
                 className="decoration"
@@ -138,7 +138,7 @@ export default function About() {
               </a>
             </div>
           </div>
-          <div className="minus">
+          <div className="minus1">
             <div className="_2020Chicago">
               <a
                 className="decoration"
@@ -150,7 +150,7 @@ export default function About() {
               </a>
             </div>
           </div>
-          <div className="minus">
+          <div className="minus1">
             <div className="_2020Chicago">
               <a
                 className="decoration"
