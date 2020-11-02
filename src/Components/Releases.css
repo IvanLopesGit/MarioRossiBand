@@ -302,3 +302,29 @@
     margin-bottom: 13px;
   }
 }
+
+@media only screen and (max-width: 360px) {
+  .releases-album,
+  .releases-title {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  .releases-img {
+    height: 200px;
+    width: 200px;
+    margin-left: 70px;
+    padding-top: 20px;
+  }
+
+  .releases-track {
+    margin-left: 0;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 50px;
+  }
+
+  .releases {
+    height: 1200px;
+  }
+}

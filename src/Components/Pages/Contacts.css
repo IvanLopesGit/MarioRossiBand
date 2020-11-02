@@ -107,3 +107,22 @@
     margin-left: 395px;
   }
 }
+
+@media only screen and (max-width: 360px) {
+  .contacts {
+    height: 590px;
+    background-repeat: repeat;
+  }
+
+  .contacts-img img {
+    height: 50px;
+    width: 250px;
+  }
+
+  .minus {
+    margin-left: 10px;
+    border-bottom: 2px solid white;
+    height: 30px;
+    width: 340px;
+  }
+}

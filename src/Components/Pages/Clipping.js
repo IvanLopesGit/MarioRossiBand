@@ -20,7 +20,7 @@ export default function About() {
                 url={require("../../Video/The_Times_You_Loved_Me_on_AR_FM_London_Colin_Nobles_Show.mpeg")}
                 // playing={true}
                 controls={true}
-                width="450px"
+                width="350px"
                 height="60px"
                 playIcon={true}
               />
@@ -74,7 +74,7 @@ export default function About() {
               </div>
             </div>
             <div className="minus1">
-              <div className="_2020Chicago">
+              <div className="_2020Chicago rockaor">
                 <a
                   className="decoration"
                   href="https://rockaor.com/?p=251552&fbclid=IwAR1FJOJDODqlI5WvXMXf3ZvZ3MOv8t1krX_wD9s11uoKEsA6whlQqkVZe1k"

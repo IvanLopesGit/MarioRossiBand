@@ -143,3 +143,21 @@
     height: 320px;
   }
 }
+
+@media only screen and (max-width: 360px) {
+  .about1-text {
+    line-height: 12px;
+    margin-left: 2px;
+    font-size: 9px;
+    margin-top: -10px;
+  }
+  .about1-title {
+    font-size: 30px;
+    margin-top: -10px;
+  }
+
+  .about1 {
+    height: 490px;
+    background-repeat: repeat !important;
+  }
+}

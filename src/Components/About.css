@@ -101,3 +101,21 @@
     height: 320px;
   }
 }
+
+@media only screen and (max-width: 360px) {
+  .about-text {
+    line-height: 10px;
+    margin-left: 2px;
+    font-size: 8px;
+    margin-top: -10px;
+  }
+  .about-title {
+    font-size: 30px;
+    margin-top: -10px;
+  }
+
+  .about {
+    height: 430px;
+    background-repeat: repeat !important;
+  }
+}

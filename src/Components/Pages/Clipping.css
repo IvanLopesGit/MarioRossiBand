@@ -101,3 +101,39 @@
     height: 760px;
   }
 }
+
+@media only screen and (max-width: 360px) {
+  .clipping {
+    height: 1150px;
+    background-repeat: repeat !important;
+  }
+
+  .minus1 {
+    margin-top: 15px;
+    margin-left: 52px;
+    padding: 15px;
+    border: 2px solid rgb(48, 48, 48);
+    height: 55px;
+    width: 250px;
+    background-color: rgb(48, 48, 48);
+  }
+
+  ._2020Chicago {
+    height: 40px;
+    margin-top: 2px;
+  }
+
+  .rockaor {
+    margin-top: -8px;
+  }
+
+  ._2020title,
+  ._2020AudioText,
+  ._2019title {
+    font-size: 18px;
+  }
+
+  ._2020audio {
+    margin-left: 5px;
+  }
+}
