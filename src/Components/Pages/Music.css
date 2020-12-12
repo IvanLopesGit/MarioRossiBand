@@ -208,8 +208,9 @@
 
 @media screen and (max-width: 720px) {
   .music {
-    height: 1420px;
+    height: 1820px;
     flex-direction: column;
+    background-repeat: repeat;
   }
 
   .music-title {
@@ -219,40 +220,41 @@
 
   .music-album {
     height: 900px;
-    width: 180px;
+    width: 540px;
   }
 
   .music-img {
-    height: 250px;
-    width: 250px;
-    margin-left: 215px;
+    height: 350px;
+    width: 350px;
+    margin-left: 115px;
+    margin-top: 75px;
   }
 
   .music-track {
     font-size: 19px;
     margin-top: 17px;
-    margin-left: 215px;
+    margin-left: 115px;
   }
 
   .spotify-icon {
-    height: 45px;
-    width: 100px;
-    margin-bottom: 9px;
+    height: 65px;
+    width: 120px;
+    margin-bottom: -18px;
     margin-left: -2px;
   }
 
   .deezer-icon {
-    height: 36px;
-    width: 116px;
+    height: 48px;
+    width: 136px;
     margin-left: 7px;
-    margin-bottom: 13px;
+    margin-bottom: -11px;
   }
 
   .apple-icon {
-    height: 38px;
-    width: 92px;
+    height: 55px;
+    width: 112px;
     margin-left: -13px;
-    margin-bottom: 13px;
+    margin-bottom: -13px;
   }
 }
 

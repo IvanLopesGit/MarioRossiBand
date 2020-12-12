@@ -68,6 +68,23 @@
   }
 }
 
+@media only screen and (max-width: 720px) {
+  .about-title {
+    font-size: 60px;
+    margin-left: 70px;
+  }
+
+  .about {
+    flex-direction: column;
+    height: 1200px;
+    background-repeat: repeat !important;
+  }
+
+  .about-text {
+    margin-left: 4px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .about {
     flex-direction: column;

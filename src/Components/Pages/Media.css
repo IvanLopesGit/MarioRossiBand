@@ -90,6 +90,40 @@
   background: #000000;
 }
 
+@media only screen and (max-width: 720px) {
+  .media {
+    height: 1420px;
+    background-repeat: repeat;
+  }
+  .redesocial {
+    margin-top: -195px;
+  }
+
+  .spotify {
+    margin-top: 110px;
+    margin-left: -375px;
+  }
+
+  .deezer {
+    margin-top: 110px;
+    margin-left: -1px;
+  }
+
+  .apple {
+    margin-top: 110px;
+    margin-left: -1px;
+  }
+
+  .rede {
+    width: 60px;
+    height: 60px;
+  }
+
+  .rede span {
+    font-size: 35px !important;
+  }
+}
+
 @media only screen and (max-width: 360px) {
   .media {
     height: 490px;

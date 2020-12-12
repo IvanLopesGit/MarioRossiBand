@@ -110,6 +110,18 @@
   }
 }
 
+@media only screen and (max-width: 720px) {
+  .about1 {
+    flex-direction: column;
+    height: 1410px;
+    background-repeat: repeat !important;
+  }
+
+  .about1-text {
+    margin-left: 4px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .about1 {
     flex-direction: column;

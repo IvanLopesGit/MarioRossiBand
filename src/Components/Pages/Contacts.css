@@ -108,6 +108,49 @@
   }
 }
 
+@media only screen and (max-width: 720px) {
+  .contacts {
+    height: 1430px;
+    background-repeat: repeat;
+  }
+
+  .minus {
+    margin-left: 200px;
+    border-bottom: 2px solid white;
+    height: 30px;
+    width: 340px;
+  }
+
+  .webmaster {
+    font-size: 40px;
+    margin-top: 3vh;
+  }
+
+  .webmaster-contact {
+    margin-top: -18px;
+    font-size: 30px;
+  }
+
+  .office-title {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  .pressoffice {
+    font-size: 30px;
+    margin-top: 3vh;
+  }
+
+  .booking-e-mail {
+    font-size: 30px;
+  }
+
+  .booking {
+    font-size: 40px;
+    margin-top: 18vh;
+  }
+}
+
 @media only screen and (max-width: 360px) {
   .contacts {
     height: 590px;

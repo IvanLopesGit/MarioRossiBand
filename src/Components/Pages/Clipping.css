@@ -102,6 +102,12 @@
   }
 }
 
+@media screen and (max-width: 720px) {
+  .clipping {
+    height: 1470px;
+  }
+}
+
 @media only screen and (max-width: 360px) {
   .clipping {
     height: 1900px;
