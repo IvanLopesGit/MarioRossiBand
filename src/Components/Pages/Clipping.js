@@ -12,6 +12,20 @@ export default function About() {
           <div className="_2020title">
             2020 some articles about 'The Same Old Street' album release
             <div className="_2020AudioText">
+              'The Times You Loved Me' on AR FM London, Colin Nobles Show
+              (Audio)
+            </div>
+            <div className="_2020audio">
+              <ReactPlayer
+                url={require("../../Video/The_Times_You_Loved_Me_on_AR_FM_London_Colin_Nobles_Show.mpeg")}
+                // playing={true}
+                controls={true}
+                width="350px"
+                height="60px"
+                playIcon={true}
+              />
+            </div>
+            <div className="_2020AudioText">
               'Coffee' Played on Monster Radio in Lanzarote during Monster Blues
               <br />
               with Sunny - Canary Islands (Audio)
@@ -74,20 +88,6 @@ export default function About() {
               </div>
             </div>
             <br />
-            <div className="_2020AudioText">
-              'The Times You Loved Me' on AR FM London, Colin Nobles Show
-              (Audio)
-            </div>
-            <div className="_2020audio">
-              <ReactPlayer
-                url={require("../../Video/The_Times_You_Loved_Me_on_AR_FM_London_Colin_Nobles_Show.mpeg")}
-                // playing={true}
-                controls={true}
-                width="350px"
-                height="60px"
-                playIcon={true}
-              />
-            </div>
             <div className="minus1">
               <div className="_2020Chicago">
                 <a
