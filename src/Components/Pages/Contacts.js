@@ -39,7 +39,7 @@ export default function Contacts() {
           <div className="webmaster-contact">
             <br /> Whatsapp: +55 (19) 9.9191-8921
             <br /> E-mail:{" "}
-            <a href="mailto:falecomzuper@gmail.com">falecomzuper@gmail.com</a>
+            <a href="mailto:contato@zuper.company">contato@zuper.company</a>
           </div>
         </div>
       </div>
